@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<web-app>
+<servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>myservlet.control.HandleRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>register</servlet-name>
+   <url-pattern>/helpRegister</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>myservlet.control.HandleLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>login</servlet-name>
+   <url-pattern>/helpLogin</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>myservlet.control.HandleUpload</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>upload</servlet-name>
+   <url-pattern>/helpUpload</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>lookRecord</servlet-name>
+    <servlet-class>myservlet.control.HandleDatabase</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>lookRecord</servlet-name>
+   <url-pattern>/helpShowMember</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>modifyPassword</servlet-name>
+    <servlet-class>myservlet.control.HandlePassword</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>modifyPassword</servlet-name>
+   <url-pattern>/helpModifyPassword</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>modifyOldMess</servlet-name>
+    <servlet-class>myservlet.control.HandleModifyMess</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>modifyOldMess</servlet-name>
+   <url-pattern>/helpModifyMess</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>exit</servlet-name>
+    <servlet-class>myservlet.control.HandleExit</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>exit</servlet-name>
+   <url-pattern>/helpExitLogin</url-pattern>
+</servlet-mapping>
+</web-app>

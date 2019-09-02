@@ -1,0 +1,34 @@
+<html>
+<head>
+
+<script type="text/javascript">
+function bgChange(bg)
+{
+document.body.style.background=bg
+}
+</script>
+</head>
+
+<body>
+
+<b>请把鼠标移动到正方形上，背景颜色会发生改变！</b>
+
+<table width="300" height="100">
+ <tr>
+  <td onmouseover="bgChange('red')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="red">
+  </td>
+  <td onmouseover="bgChange('blue')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="blue">
+  </td>
+  <td onmouseover="bgChange('green')" 
+      onmouseout="bgChange('transparent')"
+      bgcolor="green">
+  </td>
+</tr>
+</table>
+
+</body>
+</html>

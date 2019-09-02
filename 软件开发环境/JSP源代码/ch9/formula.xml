@@ -1,0 +1,31 @@
+﻿<?xml  version="1.0"  encoding="UTF-8" ?> 
+<?xml-stylesheet href="show.css" type="text/css" ?>
+<root>
+  <math> 几个数学公式：
+      <formula>
+           平方和公式：
+          (A+B)<sup>2</sup>=
+           A<sup>2</sup>+2AB+B<sup>2</sup>
+      </formula>
+      <formula>
+           立方和公式：
+          (A+B)<sup>3</sup>=
+           A<sup>3</sup>+3A<sup>2</sup>B+3AB<sup>2</sup>+B<sup>3</sup>
+      </formula>
+  </math>
+  <chemistry> 
+      几个化合物分子式：
+       <molecular>
+          水的分子式：
+            H<low>2</low>O
+       </molecular>
+      <molecular>
+           二氧化硫的分子式：
+            SO<low>2</low>
+       </molecular>
+     <molecular>
+          碳酸的分子式：
+            H<low>2</low>CO<low>3</low>
+       </molecular>
+  </chemistry>
+</root>

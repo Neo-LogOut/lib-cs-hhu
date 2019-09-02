@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<web-app>
+<servlet> 
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleRegister</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>deleteServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>deleteServlet</servlet-name>
+    <url-pattern>/deleteServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>buyServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleBuyGoods</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>buyServlet</servlet-name>
+    <url-pattern>/buyServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>queryServlet</servlet-name>
+    <servlet-class>myservlet.control.QueryAllRecord</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>queryServlet</servlet-name>
+    <url-pattern>/queryServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>putGoodsServlet</servlet-name>
+    <servlet-class>myservlet.control.PutGoodsToCar</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>putGoodsServlet</servlet-name>
+    <url-pattern>/putGoodsServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>searchByConditionServlet</servlet-name>
+    <servlet-class>myservlet.control.SearchByCondition</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>searchByConditionServlet</servlet-name>
+    <url-pattern>/searchByConditionServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>exitServlet</servlet-name>
+    <servlet-class>myservlet.control.HandleExit</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>exitServlet</servlet-name>
+    <url-pattern>/exitServlet</url-pattern>
+</servlet-mapping>
+</web-app>     

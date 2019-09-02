@@ -1,0 +1,41 @@
+math
+{  display:block;
+   background-color:yellow;
+   color:green;
+   left=100;
+}
+chemistry
+{  display:block;
+   background-color:cyan;
+   color:green;
+   left=100;
+}
+formula
+{   display:list-item;
+    list-style-type:lower-roman;
+    margin-left:60;
+    font-size:14pt;
+    color:black;
+}
+molecular
+{   display:list-item;
+    list-style-type:decimal;
+    margin-left:60;
+    font-size:14pt;
+    color:black;
+}
+sup
+{ display:line;
+  font-size:10pt;
+  font-weight:bold;
+  font-style:italic;
+  color:blue;
+  vertical-align:super;
+}
+low
+{ display:line;
+  font-size:8pt;
+  font-weight:bold;
+  color:blue;
+  vertical-align:bottom;
+}

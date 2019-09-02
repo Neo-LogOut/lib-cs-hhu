@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+<servlet>
+    <servlet-name>number</servlet-name>
+    <servlet-class>sun.yourservlet.Number</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>number</servlet-name>
+  <url-pattern>/byNumber</url-pattern>
+</servlet-mapping>
+</web-app>

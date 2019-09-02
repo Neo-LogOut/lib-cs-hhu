@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+<servlet>
+    <servlet-name>queryByConditionServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_2_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>queryByConditionServlet</servlet-name>
+   <url-pattern>/queryByConditionServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>insertServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_3_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>insertServlet</servlet-name>
+   <url-pattern>/insertServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>insertBySetServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_4_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>insertBySetServlet</servlet-name>
+  <url-pattern>/insertBySetServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>preparedServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_6_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>preparedServlet</servlet-name>
+  <url-pattern>/preparedServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>queryAllServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_8_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>queryAllServlet</servlet-name>
+  <url-pattern>/queryAllServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>readTestServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_10_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>readTestServlet</servlet-name>
+  <url-pattern>/readTestServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>endTestServlet</servlet-name>
+    <servlet-class>myservlet.control.Example7_10_End_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>endTestServlet</servlet-name>
+  <url-pattern>/endTestServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>shiyan1Servlet</servlet-name>
+    <servlet-class>myservlet.control.Shiyan1_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>shiyan1Servlet</servlet-name>
+  <url-pattern>/shiyan1Servlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>shiyan2Servlet</servlet-name>
+    <servlet-class>myservlet.control.Shiyan2_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>shiyan2Servlet</servlet-name>
+  <url-pattern>/shiyan2Servlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
