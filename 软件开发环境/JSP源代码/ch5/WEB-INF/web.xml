@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<web-app>
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>myservlet.control.Example5_1_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/lookHello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>computeBill</servlet-name>
+        <servlet-class>myservlet.control.Example5_2_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>computeBill</servlet-name>
+        <url-pattern>/computeBill</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>triangle</servlet-name>
+        <servlet-class>myservlet.control.Example5_3_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>triangle</servlet-name>
+        <url-pattern>/triangle</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>computerPI</servlet-name>
+        <servlet-class>myservlet.control.Example5_4_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>computerPI </servlet-name>
+        <url-pattern>/computerPI </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sumORproduct</servlet-name>
+        <servlet-class>myservlet.control.Example5_5_Servlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>sumORproduct</servlet-name>
+       <url-pattern>/sumORproduct</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+        <servlet-name>twoPath</servlet-name>
+        <servlet-class>myservlet.control.Example5_6_Servlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>twoPath</servlet-name>
+       <url-pattern>/twoPath</url-pattern>
+   </servlet-mapping>
+
+   <servlet>
+        <servlet-name>guess</servlet-name>
+        <servlet-class>myservlet.control.Example5_7_Servlet</servlet-class>
+   </servlet>
+   <servlet-mapping>
+       <servlet-name>guess</servlet-name>
+       <url-pattern>/guess</url-pattern>
+   </servlet-mapping>
+
+   
+
+</web-app>

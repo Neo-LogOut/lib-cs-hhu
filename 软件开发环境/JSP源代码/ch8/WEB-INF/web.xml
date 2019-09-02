@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+<servlet>
+    <servlet-name>helpReadFile</servlet-name>
+    <servlet-class>myservlet.control.Example8_4_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>helpReadFile</servlet-name>
+    <url-pattern>/helpReadFile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>upFile</servlet-name>
+    <servlet-class>myservlet.control.Example8_6_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>upFile</servlet-name>
+    <url-pattern>/upFile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>loadFile</servlet-name>
+    <servlet-class>myservlet.control.Example8_7_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>loadFile</servlet-name>
+    <url-pattern>/loadFile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>writeFile</servlet-name>
+    <servlet-class>myservlet.control.Shiyan1_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>writeFile</servlet-name>
+    <url-pattern>/writeFile</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>readFileByLine</servlet-name>
+    <servlet-class>myservlet.control.Shiyan2_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>readFileByLine</servlet-name>
+    <url-pattern>/readFileByLine</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

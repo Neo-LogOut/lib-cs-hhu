@@ -1,0 +1,15 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<CENTER><Font size=5><P>交友信息发布网</Font></CENTER>
+<table  cellSpacing="1" cellPadding="1" width="560" align="center" border="0" >
+   <tr valign="bottom">
+   <td><A href="register.jsp"><font size=2>会员注册</font></A></td>
+   <td><A href="login.jsp"><font size=2>会员登录</font></A></td>
+   <td><A href="upload.jsp"><font size=2>上传照片</font></A></td>
+   <td><A href="choiceLookType.jsp"><font size=2>浏览会员</font></A></td>
+   <td><A href="inputModifyMess.jsp"><font size=2>修改注册信息</font></A></td>
+   <td><A href="modifyPassword.jsp"><font size=2>修改密码</font></A></td>
+   <td><A href="helpExitLogin"><font size=2>退出登录</font></A></td>
+   <td><A href="index.jsp"><font size=2>返回主页</font></A></td>
+  </tr>
+  </Font>
+</table>
