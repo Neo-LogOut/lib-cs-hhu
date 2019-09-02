@@ -50,3 +50,13 @@
 本人才疏学浅，此次资料整理并上传也未计划周全，如有更好的资料，欢迎贡献！
 
 关于往年试卷方面，大三的课程暂未上传，这关系到一些利益问题，若实在需要，欢迎致信：qs4869@outlook.com。
+
+"北大图书馆"项目传送门：https://github.com/lib-pku/libpku
+
+"浙江大学课程攻略共享计划"传送门：https://github.com/QSCTech/zju-icicles
+
+"上海交通大学课程资料分享"传送门：https://github.com/CoolPhilChen/SJTU-Courses/
+
+"清华大学计算机系课程攻略"传送门：https://github.com/Trinkle23897/thu-cst-cracker
+
+以上排名不分先后
